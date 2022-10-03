@@ -1,8 +1,14 @@
 {
     "no-duplicate-heading": false,
-    "line-length":
-    {
-        "line_length": 80
+    "code-block-style": {
+        "style": "fenced"
     },
-    "no-emphasis-as-heading": false
+    "line-length": {
+        "line_length": 80,
+        "heading_line_length": 25,
+        "code_block_line_length": 80
+    },
+    "no-emphasis-as-heading": false,
+    "bullet": true,
+    "whitespace": false
 }
