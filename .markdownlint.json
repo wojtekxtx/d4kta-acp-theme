@@ -3,5 +3,6 @@
     "line-length":
     {
         "line_length": 80
-    }
+    },
+    "no-emphasis-as-heading": false
 }
