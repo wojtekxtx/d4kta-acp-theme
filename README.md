@@ -46,10 +46,6 @@ npm run e2e
 
 ## Production
 
-***SB Admin Angular come with a production ready Dockerfile and build scripts.
-
-You can get Docker [here](https://www.docker.com/get-started)
-
 **Not ready yet**
 
 ## Generate Code
