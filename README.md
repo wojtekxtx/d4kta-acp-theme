@@ -2,7 +2,7 @@
 
 SB Admin Angular is a free and open-sourced Bootstrap themed Angular 9 starter project.
 
-It shares the same project structure and subset of tooling from our professional offering,
+It shares the same project structure and subset of tooling from pro offering,
 [SB Admin Pro Angular](https://themes.startbootstrap.com/sb-admin-pro-angular/),
 so much of the [SB Admin Pro Angular Documentation](https://docs.startbootstrap.com/sb-admin-pro-angular/quickstart) is applicable.
 
@@ -11,15 +11,11 @@ and the documentation for [SBPro Schematics](https://docs.startbootstrap.com/sb-
 
 SB Admin Angular comes with a base implementation of navigation and layouts.
 
-For professionally designed components (including an advanced SideNav), 100% code coverage,
-starter cypress tests and more, please consider our professional offering:
-[SB Admin Pro Angular](https://themes.startbootstrap.com/sb-admin-pro-angular/)
-
 ## Quick Start
 
 ```bash
-git clone git@github.com:startbootstrap/sb-admin-angular.git
-cd sb-admin-angular
+git clone https://github.com/wojtekxtx/d4kta-acp-theme.git
+cd d4kta-acp-theme
 npm install
 npm start
 ```
@@ -50,14 +46,11 @@ npm run e2e
 
 ## Production
 
-SB Admin Angular come with a production ready Dockerfile and build scripts.
+***SB Admin Angular come with a production ready Dockerfile and build scripts.
 
 You can get Docker [here](https://www.docker.com/get-started)
 
-```bash
-npm run docker:build
-npm run docker:run
-```
+**Not ready yet**
 
 ## Generate Code
 
