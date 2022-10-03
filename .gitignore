@@ -40,6 +40,10 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+Dockerfile
+version
+.dockerignore
+CHANGELOG.md
 
 # System Files
 .DS_Store
