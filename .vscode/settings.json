@@ -2,12 +2,18 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+
+    // Editor
     "editor.codeActionsOnSave": {
-        "source.fixAll.tslint": true,
+        "source.fixAll": true,
         "source.organizeImports": false
     },
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
+
+    // JavaScript
     "javascript.format.enable": true,
+
+    // JSON
     "json.schemas": [
         {
             "fileMatch": [
@@ -28,8 +34,18 @@
             "url": "http://json.schemastore.org/tslint"
         }
     ],
-    "puglint.enable": true,
-    "puglint.run": "onSave",
-    "scss.lint.duplicateProperties": "error",
-    "typescript.format.enable": true
+
+    // Styling
+    "scss.lint.duplicateProperties": "warning",
+    "scss.format.enable": true,
+    "scss.format.braceStyle": "expand",
+    "scss.format.preserveNewLines": true,
+    "scss.format.maxPreserveNewLines": 2,
+    "scss.format.newlineBetweenRules": true,
+    "scss.format.newlineBetweenSelectors": true,
+    "scss.format.spaceAroundSelectorSeparator": false,
+    "scss.hover.references": true,
+    "scss.hover.documentation": true,
+    "scss.lint.emptyRules": "warning",
+    "scss.lint.boxModel": "ignore"
 }
